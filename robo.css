@@ -1,0 +1,89 @@
+.request {
+    text-align: center;
+    margin: auto;
+    background: lightcoral;
+    width: 80%;
+    height: auto;
+    display: block;
+    padding-left: 5%;
+    padding-right:5%;
+}
+
+button {
+    background: aquamarine;
+    -webkit-box-shadow: 3px 3px 5px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 5px 0 rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 5px 0 rgba(0,0,0,0.75);
+    margin: 7px;
+    width: 150px;
+    height: 25px;
+    border: 2px solid cornflowerblue;
+    border-radius: 7px;
+}
+
+input {
+    width: 80%;
+    margin: 10px;
+    margin-bottom: 1px;
+}
+
+.table {
+    padding: 5px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: bisque;
+    width: 80%;
+    display: table;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    padding: 4px;
+    border: 1px solid cadetblue;
+    vertical-align: middle;
+    display: table-cell;
+}
+.ok {
+    width: 7%;
+    padding: 4px;
+    border: 1px solid cadetblue;
+    background: darkseagreen;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.error {
+    width: 7%;
+    padding: 4px;
+    border: 1px solid cadetblue;
+    background: tomato;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.firstCell {
+    padding: 4px;
+    border: 1px solid cadetblue;
+    width: 40%;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.lastCell {
+    display: table-cell;
+    padding: 4px;
+    border: 1px solid cadetblue;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.rowGroup {
+    display: table-row-group;
+    width: 40%;
+}
